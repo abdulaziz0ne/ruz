@@ -186,3 +186,50 @@ footer{
     color:#777777;
     font-size:14px;
 }
+
+/* ---------- LESSON PAGE ---------- */
+
+.back-link{
+    display:inline-block;
+    margin-bottom:24px;
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+}
+
+.back-link:hover{
+    color:#0099B5;
+}
+
+.lesson-section{
+    border:1px solid #ECECEC;
+    border-radius:8px;
+    padding:20px;
+    margin:28px 0;
+}
+
+.lesson-section h2{
+    margin-top:0;
+    margin-bottom:16px;
+}
+
+.lesson-section p{
+    margin:12px 0;
+    line-height:1.7;
+}
+
+.lesson-navigation{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.lesson-navigation a{
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+}
+
+.lesson-navigation a:hover{
+    color:#0099B5;
+}
