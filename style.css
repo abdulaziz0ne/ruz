@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#FAFAFA;
+    color:#111111;
+    line-height:1.6;
+}
+
+.container{
+    width:min(700px,92%);
+    margin:auto;
+    padding:48px 0;
+}
+
+.logo{
+    text-align:center;
+    font-size:58px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#0099B5;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    font-size:16px;
+    margin-top:4px;
+    margin-bottom:40px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #E5E5E5;
+    margin:32px 0;
+}
+
+h2{
+    font-size:20px;
+    margin-bottom:16px;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+a{
+    color:#111;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#0099B5;
+}
+
+small{
+    color:#777;
+}
+
+p{
+    margin-bottom:10px;
+}
+
+.description{
+    text-align:center;
+    color:#777;
+    max-width:420px;
+    margin:16px auto 32px;
+}
+
+.start-button{
+    display:block;
+    width:100%;
+    text-align:center;
+
+    padding:14px;
+
+    border:2px solid #D8D8D8;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-weight:600;
+
+    transition:.2s;
+}
+
+.start-button:hover{
+
+    background:#0099B5;
+
+    color:white;
+
+}
+
+.topics a,
+.tools a{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 0;
+
+    text-decoration:none;
+
+    color:#111;
+
+    border-bottom:1px solid #F0F0F0;
+
+}
+
+.topics span,
+.tools span{
+
+    color:#0099B5;
+
+}
+
+.topics a:hover,
+.tools a:hover{
+
+    color:#0099B5;
+
+}
+
+.topics a:hover span,
+.tools a:hover span{
+
+    color:#0099B5;
+
+}
+
+.roadmap div{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:10px 0;
+
+    border-bottom:1px solid #F0F0F0;
+
+}
+
+.roadmap small{
+
+    color:#999;
+
+}
+
+footer{
+    margin-top:48px;
+}
+
+.footer-link{
+    display:block;
+    text-decoration:none;
+    color:#111111;
+    margin:14px 0;
+    font-weight:500;
+}
+
+.footer-link:hover{
+    color:#0099B5;
+}
+
+.copyright{
+    margin-top:24px;
+    text-align:center;
+    color:#777777;
+    font-size:14px;
+}
